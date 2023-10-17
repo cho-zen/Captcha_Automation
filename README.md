@@ -14,7 +14,7 @@ This repository contains a Python script that automates the process of reading a
 </ol>
 
 ## Getting Started
-<h3> Prerequisites </h3>
+### Prerequisites
 Before you can use this script, you need to have the following prerequisites installed on your system:
 <br><br>
 <li> Python 3.x </li>
@@ -31,3 +31,18 @@ pip install pytesseract selenium
 ```
 
 Make sure to install Tesseract OCR as well. You can download it from the <a href = "https://github.com/tesseract-ocr/tesseract">official GitHub repository<a/> and follow the installation instructions for your specific operating system.
+
+### Installation
+1. Clone the repository to your local machine:
+```bash
+  git clone https://github.com/cho-zen/Captcha_Automation.git
+```
+2. Navigate to the project directory:
+```bash
+  cd Captcha_Automation
+```
+3. Run the script:
+```bash
+  python captcha_solver.py
+```
+
